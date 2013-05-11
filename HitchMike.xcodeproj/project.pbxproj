@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05F8936D173EA70900AAD5B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F8936C173EA70900AAD5B7 /* UIKit.framework */; };
+		05F8936F173EA70900AAD5B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F8936E173EA70900AAD5B7 /* Foundation.framework */; };
+		05F89371173EA70900AAD5B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F89370173EA70900AAD5B7 /* CoreGraphics.framework */; };
+		05F89377173EA70900AAD5B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05F89375173EA70900AAD5B7 /* InfoPlist.strings */; };
+		05F89379173EA70900AAD5B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F89378173EA70900AAD5B7 /* main.m */; };
+		05F8937D173EA70900AAD5B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F8937C173EA70900AAD5B7 /* AppDelegate.m */; };
+		05F8937F173EA70900AAD5B7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F8937E173EA70900AAD5B7 /* Default.png */; };
+		05F89381173EA70900AAD5B7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F89380173EA70900AAD5B7 /* Default@2x.png */; };
+		05F89383173EA70900AAD5B7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F89382173EA70900AAD5B7 /* Default-568h@2x.png */; };
+		05F89386173EA70900AAD5B7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F89385173EA70900AAD5B7 /* FirstViewController.m */; };
+		05F89388173EA70900AAD5B7 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F89387173EA70900AAD5B7 /* first.png */; };
+		05F8938A173EA70900AAD5B7 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F89389173EA70900AAD5B7 /* first@2x.png */; };
+		05F8938D173EA70900AAD5B7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F8938C173EA70900AAD5B7 /* SecondViewController.m */; };
+		05F8938F173EA70900AAD5B7 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F8938E173EA70900AAD5B7 /* second.png */; };
+		05F89391173EA70900AAD5B7 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F89390173EA70900AAD5B7 /* second@2x.png */; };
+		05F89394173EA70900AAD5B7 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05F89392173EA70900AAD5B7 /* FirstViewController.xib */; };
+		05F89397173EA70900AAD5B7 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05F89395173EA70900AAD5B7 /* SecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05F89369173EA70900AAD5B7 /* HitchMike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitchMike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F8936C173EA70900AAD5B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		05F8936E173EA70900AAD5B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05F89370173EA70900AAD5B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		05F89374173EA70900AAD5B7 /* HitchMike-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HitchMike-Info.plist"; sourceTree = "<group>"; };
+		05F89376173EA70900AAD5B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05F89378173EA70900AAD5B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05F8937A173EA70900AAD5B7 /* HitchMike-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HitchMike-Prefix.pch"; sourceTree = "<group>"; };
+		05F8937B173EA70900AAD5B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		05F8937C173EA70900AAD5B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		05F8937E173EA70900AAD5B7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		05F89380173EA70900AAD5B7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		05F89382173EA70900AAD5B7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		05F89384173EA70900AAD5B7 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		05F89385173EA70900AAD5B7 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		05F89387173EA70900AAD5B7 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		05F89389173EA70900AAD5B7 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		05F8938B173EA70900AAD5B7 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		05F8938C173EA70900AAD5B7 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		05F8938E173EA70900AAD5B7 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		05F89390173EA70900AAD5B7 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		05F89393173EA70900AAD5B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		05F89396173EA70900AAD5B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05F89366173EA70900AAD5B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F8936D173EA70900AAD5B7 /* UIKit.framework in Frameworks */,
+				05F8936F173EA70900AAD5B7 /* Foundation.framework in Frameworks */,
+				05F89371173EA70900AAD5B7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05F89360173EA70900AAD5B7 = {
+			isa = PBXGroup;
+			children = (
+				05F89372173EA70900AAD5B7 /* HitchMike */,
+				05F8936B173EA70900AAD5B7 /* Frameworks */,
+				05F8936A173EA70900AAD5B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05F8936A173EA70900AAD5B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05F89369173EA70900AAD5B7 /* HitchMike.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05F8936B173EA70900AAD5B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05F8936C173EA70900AAD5B7 /* UIKit.framework */,
+				05F8936E173EA70900AAD5B7 /* Foundation.framework */,
+				05F89370173EA70900AAD5B7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05F89372173EA70900AAD5B7 /* HitchMike */ = {
+			isa = PBXGroup;
+			children = (
+				05F8937B173EA70900AAD5B7 /* AppDelegate.h */,
+				05F8937C173EA70900AAD5B7 /* AppDelegate.m */,
+				05F89384173EA70900AAD5B7 /* FirstViewController.h */,
+				05F89385173EA70900AAD5B7 /* FirstViewController.m */,
+				05F89387173EA70900AAD5B7 /* first.png */,
+				05F89389173EA70900AAD5B7 /* first@2x.png */,
+				05F8938B173EA70900AAD5B7 /* SecondViewController.h */,
+				05F8938C173EA70900AAD5B7 /* SecondViewController.m */,
+				05F8938E173EA70900AAD5B7 /* second.png */,
+				05F89390173EA70900AAD5B7 /* second@2x.png */,
+				05F89392173EA70900AAD5B7 /* FirstViewController.xib */,
+				05F89395173EA70900AAD5B7 /* SecondViewController.xib */,
+				05F89373173EA70900AAD5B7 /* Supporting Files */,
+			);
+			path = HitchMike;
+			sourceTree = "<group>";
+		};
+		05F89373173EA70900AAD5B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05F89374173EA70900AAD5B7 /* HitchMike-Info.plist */,
+				05F89375173EA70900AAD5B7 /* InfoPlist.strings */,
+				05F89378173EA70900AAD5B7 /* main.m */,
+				05F8937A173EA70900AAD5B7 /* HitchMike-Prefix.pch */,
+				05F8937E173EA70900AAD5B7 /* Default.png */,
+				05F89380173EA70900AAD5B7 /* Default@2x.png */,
+				05F89382173EA70900AAD5B7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05F89368173EA70900AAD5B7 /* HitchMike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F8939A173EA70900AAD5B7 /* Build configuration list for PBXNativeTarget "HitchMike" */;
+			buildPhases = (
+				05F89365173EA70900AAD5B7 /* Sources */,
+				05F89366173EA70900AAD5B7 /* Frameworks */,
+				05F89367173EA70900AAD5B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HitchMike;
+			productName = HitchMike;
+			productReference = 05F89369173EA70900AAD5B7 /* HitchMike.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05F89361173EA70900AAD5B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = AngelHack;
+			};
+			buildConfigurationList = 05F89364173EA70900AAD5B7 /* Build configuration list for PBXProject "HitchMike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05F89360173EA70900AAD5B7;
+			productRefGroup = 05F8936A173EA70900AAD5B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05F89368173EA70900AAD5B7 /* HitchMike */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05F89367173EA70900AAD5B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F89377173EA70900AAD5B7 /* InfoPlist.strings in Resources */,
+				05F8937F173EA70900AAD5B7 /* Default.png in Resources */,
+				05F89381173EA70900AAD5B7 /* Default@2x.png in Resources */,
+				05F89383173EA70900AAD5B7 /* Default-568h@2x.png in Resources */,
+				05F89388173EA70900AAD5B7 /* first.png in Resources */,
+				05F8938A173EA70900AAD5B7 /* first@2x.png in Resources */,
+				05F8938F173EA70900AAD5B7 /* second.png in Resources */,
+				05F89391173EA70900AAD5B7 /* second@2x.png in Resources */,
+				05F89394173EA70900AAD5B7 /* FirstViewController.xib in Resources */,
+				05F89397173EA70900AAD5B7 /* SecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05F89365173EA70900AAD5B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F89379173EA70900AAD5B7 /* main.m in Sources */,
+				05F8937D173EA70900AAD5B7 /* AppDelegate.m in Sources */,
+				05F89386173EA70900AAD5B7 /* FirstViewController.m in Sources */,
+				05F8938D173EA70900AAD5B7 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05F89375173EA70900AAD5B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05F89376173EA70900AAD5B7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		05F89392173EA70900AAD5B7 /* FirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05F89393173EA70900AAD5B7 /* en */,
+			);
+			name = FirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		05F89395173EA70900AAD5B7 /* SecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05F89396173EA70900AAD5B7 /* en */,
+			);
+			name = SecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05F89398173EA70900AAD5B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		05F89399173EA70900AAD5B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05F8939B173EA70900AAD5B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HitchMike/HitchMike-Prefix.pch";
+				INFOPLIST_FILE = "HitchMike/HitchMike-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		05F8939C173EA70900AAD5B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HitchMike/HitchMike-Prefix.pch";
+				INFOPLIST_FILE = "HitchMike/HitchMike-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05F89364173EA70900AAD5B7 /* Build configuration list for PBXProject "HitchMike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F89398173EA70900AAD5B7 /* Debug */,
+				05F89399173EA70900AAD5B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F8939A173EA70900AAD5B7 /* Build configuration list for PBXNativeTarget "HitchMike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F8939B173EA70900AAD5B7 /* Debug */,
+				05F8939C173EA70900AAD5B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05F89361173EA70900AAD5B7 /* Project object */;
+}
