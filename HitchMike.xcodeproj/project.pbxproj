@@ -16,6 +16,7 @@
 		0599968A173EFDF0001CD5BB /* OnthegoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05999688173EFDF0001CD5BB /* OnthegoViewController.m */; };
 		0599968B173EFDF0001CD5BB /* OnthegoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05999689173EFDF0001CD5BB /* OnthegoViewController.xib */; };
 		0599968F173F02C2001CD5BB /* DriverRideModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0599968E173F02C2001CD5BB /* DriverRideModel.m */; };
+		05999691173F2D6B001CD5BB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05999690173F2D6B001CD5BB /* MapKit.framework */; };
 		05F8936D173EA70900AAD5B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F8936C173EA70900AAD5B7 /* UIKit.framework */; };
 		05F8936F173EA70900AAD5B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F8936E173EA70900AAD5B7 /* Foundation.framework */; };
 		05F89371173EA70900AAD5B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F89370173EA70900AAD5B7 /* CoreGraphics.framework */; };
@@ -50,6 +51,7 @@
 		05999689173EFDF0001CD5BB /* OnthegoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnthegoViewController.xib; sourceTree = "<group>"; };
 		0599968D173F02C2001CD5BB /* DriverRideModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverRideModel.h; sourceTree = "<group>"; };
 		0599968E173F02C2001CD5BB /* DriverRideModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverRideModel.m; sourceTree = "<group>"; };
+		05999690173F2D6B001CD5BB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		05F89369173EA70900AAD5B7 /* HitchMike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitchMike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05F8936C173EA70900AAD5B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		05F8936E173EA70900AAD5B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -80,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05999691173F2D6B001CD5BB /* MapKit.framework in Frameworks */,
 				05F8936D173EA70900AAD5B7 /* UIKit.framework in Frameworks */,
 				05F8936F173EA70900AAD5B7 /* Foundation.framework in Frameworks */,
 				05F89371173EA70900AAD5B7 /* CoreGraphics.framework in Frameworks */,
@@ -123,6 +126,7 @@
 		05F89360173EA70900AAD5B7 = {
 			isa = PBXGroup;
 			children = (
+				05999690173F2D6B001CD5BB /* MapKit.framework */,
 				05F89372173EA70900AAD5B7 /* HitchMike */,
 				05F8936B173EA70900AAD5B7 /* Frameworks */,
 				05F8936A173EA70900AAD5B7 /* Products */,
