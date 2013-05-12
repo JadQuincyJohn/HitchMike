@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 
-#import "FirstViewController.h"
+#import "HomeViewController.h"
 
 #import "SecondViewController.h"
 
@@ -25,10 +25,14 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    UIViewController *viewController1 = [[[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil] autorelease];
+    UINavigationController * navController = [[[UINavigationController alloc] init] autorelease];
+    
+    UIViewController *viewController1 = [[[HomeViewController alloc] initWithNibName:NSStringFromClass([HomeViewController class]) bundle:nil] autorelease];
+    [navController pushViewController:viewController1 animated:NO];
+    
     UIViewController *viewController2 = [[[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil] autorelease];
     self.tabBarController = [[[UITabBarController alloc] init] autorelease];
-    self.tabBarController.viewControllers = @[viewController1, viewController2];
+    self.tabBarController.viewControllers = @[navController, viewController2];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;

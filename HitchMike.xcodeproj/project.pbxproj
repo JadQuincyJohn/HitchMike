@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0599967B173EF9C4001CD5BB /* DriverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05999679173EF9C4001CD5BB /* DriverViewController.m */; };
+		0599967C173EF9C4001CD5BB /* DriverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0599967A173EF9C4001CD5BB /* DriverViewController.xib */; };
+		05999680173EFA34001CD5BB /* DriverDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0599967E173EFA34001CD5BB /* DriverDetailViewController.m */; };
+		05999681173EFA34001CD5BB /* DriverDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0599967F173EFA34001CD5BB /* DriverDetailViewController.xib */; };
+		05999685173EFDC0001CD5BB /* RoutesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05999683173EFDC0001CD5BB /* RoutesViewController.m */; };
+		05999686173EFDC0001CD5BB /* RoutesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05999684173EFDC0001CD5BB /* RoutesViewController.xib */; };
+		0599968A173EFDF0001CD5BB /* OnthegoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05999688173EFDF0001CD5BB /* OnthegoViewController.m */; };
+		0599968B173EFDF0001CD5BB /* OnthegoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05999689173EFDF0001CD5BB /* OnthegoViewController.xib */; };
+		0599968F173F02C2001CD5BB /* DriverRideModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0599968E173F02C2001CD5BB /* DriverRideModel.m */; };
 		05F8936D173EA70900AAD5B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F8936C173EA70900AAD5B7 /* UIKit.framework */; };
 		05F8936F173EA70900AAD5B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F8936E173EA70900AAD5B7 /* Foundation.framework */; };
 		05F89371173EA70900AAD5B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F89370173EA70900AAD5B7 /* CoreGraphics.framework */; };
@@ -16,17 +25,31 @@
 		05F8937F173EA70900AAD5B7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F8937E173EA70900AAD5B7 /* Default.png */; };
 		05F89381173EA70900AAD5B7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F89380173EA70900AAD5B7 /* Default@2x.png */; };
 		05F89383173EA70900AAD5B7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F89382173EA70900AAD5B7 /* Default-568h@2x.png */; };
-		05F89386173EA70900AAD5B7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F89385173EA70900AAD5B7 /* FirstViewController.m */; };
-		05F89388173EA70900AAD5B7 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F89387173EA70900AAD5B7 /* first.png */; };
-		05F8938A173EA70900AAD5B7 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F89389173EA70900AAD5B7 /* first@2x.png */; };
+		05F89386173EA70900AAD5B7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F89385173EA70900AAD5B7 /* HomeViewController.m */; };
+		05F89388173EA70900AAD5B7 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F89387173EA70900AAD5B7 /* Home.png */; };
+		05F8938A173EA70900AAD5B7 /* Home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F89389173EA70900AAD5B7 /* Home@2x.png */; };
 		05F8938D173EA70900AAD5B7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F8938C173EA70900AAD5B7 /* SecondViewController.m */; };
 		05F8938F173EA70900AAD5B7 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F8938E173EA70900AAD5B7 /* second.png */; };
 		05F89391173EA70900AAD5B7 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F89390173EA70900AAD5B7 /* second@2x.png */; };
-		05F89394173EA70900AAD5B7 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05F89392173EA70900AAD5B7 /* FirstViewController.xib */; };
+		05F89394173EA70900AAD5B7 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05F89392173EA70900AAD5B7 /* HomeViewController.xib */; };
 		05F89397173EA70900AAD5B7 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05F89395173EA70900AAD5B7 /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05999678173EF9C4001CD5BB /* DriverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverViewController.h; sourceTree = "<group>"; };
+		05999679173EF9C4001CD5BB /* DriverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverViewController.m; sourceTree = "<group>"; };
+		0599967A173EF9C4001CD5BB /* DriverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DriverViewController.xib; sourceTree = "<group>"; };
+		0599967D173EFA34001CD5BB /* DriverDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverDetailViewController.h; sourceTree = "<group>"; };
+		0599967E173EFA34001CD5BB /* DriverDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverDetailViewController.m; sourceTree = "<group>"; };
+		0599967F173EFA34001CD5BB /* DriverDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DriverDetailViewController.xib; sourceTree = "<group>"; };
+		05999682173EFDC0001CD5BB /* RoutesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoutesViewController.h; sourceTree = "<group>"; };
+		05999683173EFDC0001CD5BB /* RoutesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoutesViewController.m; sourceTree = "<group>"; };
+		05999684173EFDC0001CD5BB /* RoutesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoutesViewController.xib; sourceTree = "<group>"; };
+		05999687173EFDF0001CD5BB /* OnthegoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnthegoViewController.h; sourceTree = "<group>"; };
+		05999688173EFDF0001CD5BB /* OnthegoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnthegoViewController.m; sourceTree = "<group>"; };
+		05999689173EFDF0001CD5BB /* OnthegoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnthegoViewController.xib; sourceTree = "<group>"; };
+		0599968D173F02C2001CD5BB /* DriverRideModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverRideModel.h; sourceTree = "<group>"; };
+		0599968E173F02C2001CD5BB /* DriverRideModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverRideModel.m; sourceTree = "<group>"; };
 		05F89369173EA70900AAD5B7 /* HitchMike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitchMike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05F8936C173EA70900AAD5B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		05F8936E173EA70900AAD5B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,15 +63,15 @@
 		05F8937E173EA70900AAD5B7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		05F89380173EA70900AAD5B7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		05F89382173EA70900AAD5B7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		05F89384173EA70900AAD5B7 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		05F89385173EA70900AAD5B7 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		05F89387173EA70900AAD5B7 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		05F89389173EA70900AAD5B7 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		05F89384173EA70900AAD5B7 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		05F89385173EA70900AAD5B7 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		05F89387173EA70900AAD5B7 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		05F89389173EA70900AAD5B7 /* Home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home@2x.png"; sourceTree = "<group>"; };
 		05F8938B173EA70900AAD5B7 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		05F8938C173EA70900AAD5B7 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		05F8938E173EA70900AAD5B7 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		05F89390173EA70900AAD5B7 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		05F89393173EA70900AAD5B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		05F89393173EA70900AAD5B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HomeViewController.xib; sourceTree = "<group>"; };
 		05F89396173EA70900AAD5B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +89,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05999677173EF98F001CD5BB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				05F89384173EA70900AAD5B7 /* HomeViewController.h */,
+				05F89385173EA70900AAD5B7 /* HomeViewController.m */,
+				05F89392173EA70900AAD5B7 /* HomeViewController.xib */,
+				05999678173EF9C4001CD5BB /* DriverViewController.h */,
+				05999679173EF9C4001CD5BB /* DriverViewController.m */,
+				0599967A173EF9C4001CD5BB /* DriverViewController.xib */,
+				0599967D173EFA34001CD5BB /* DriverDetailViewController.h */,
+				0599967E173EFA34001CD5BB /* DriverDetailViewController.m */,
+				0599967F173EFA34001CD5BB /* DriverDetailViewController.xib */,
+				05999682173EFDC0001CD5BB /* RoutesViewController.h */,
+				05999683173EFDC0001CD5BB /* RoutesViewController.m */,
+				05999684173EFDC0001CD5BB /* RoutesViewController.xib */,
+				05999687173EFDF0001CD5BB /* OnthegoViewController.h */,
+				05999688173EFDF0001CD5BB /* OnthegoViewController.m */,
+				05999689173EFDF0001CD5BB /* OnthegoViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0599968C173F028A001CD5BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0599968D173F02C2001CD5BB /* DriverRideModel.h */,
+				0599968E173F02C2001CD5BB /* DriverRideModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		05F89360173EA70900AAD5B7 = {
 			isa = PBXGroup;
 			children = (
@@ -96,17 +150,16 @@
 		05F89372173EA70900AAD5B7 /* HitchMike */ = {
 			isa = PBXGroup;
 			children = (
+				0599968C173F028A001CD5BB /* Model */,
+				05999677173EF98F001CD5BB /* Controllers */,
 				05F8937B173EA70900AAD5B7 /* AppDelegate.h */,
 				05F8937C173EA70900AAD5B7 /* AppDelegate.m */,
-				05F89384173EA70900AAD5B7 /* FirstViewController.h */,
-				05F89385173EA70900AAD5B7 /* FirstViewController.m */,
-				05F89387173EA70900AAD5B7 /* first.png */,
-				05F89389173EA70900AAD5B7 /* first@2x.png */,
+				05F89387173EA70900AAD5B7 /* Home.png */,
+				05F89389173EA70900AAD5B7 /* Home@2x.png */,
 				05F8938B173EA70900AAD5B7 /* SecondViewController.h */,
 				05F8938C173EA70900AAD5B7 /* SecondViewController.m */,
 				05F8938E173EA70900AAD5B7 /* second.png */,
 				05F89390173EA70900AAD5B7 /* second@2x.png */,
-				05F89392173EA70900AAD5B7 /* FirstViewController.xib */,
 				05F89395173EA70900AAD5B7 /* SecondViewController.xib */,
 				05F89373173EA70900AAD5B7 /* Supporting Files */,
 			);
@@ -182,12 +235,16 @@
 				05F8937F173EA70900AAD5B7 /* Default.png in Resources */,
 				05F89381173EA70900AAD5B7 /* Default@2x.png in Resources */,
 				05F89383173EA70900AAD5B7 /* Default-568h@2x.png in Resources */,
-				05F89388173EA70900AAD5B7 /* first.png in Resources */,
-				05F8938A173EA70900AAD5B7 /* first@2x.png in Resources */,
+				05F89388173EA70900AAD5B7 /* Home.png in Resources */,
+				05F8938A173EA70900AAD5B7 /* Home@2x.png in Resources */,
 				05F8938F173EA70900AAD5B7 /* second.png in Resources */,
 				05F89391173EA70900AAD5B7 /* second@2x.png in Resources */,
-				05F89394173EA70900AAD5B7 /* FirstViewController.xib in Resources */,
+				05F89394173EA70900AAD5B7 /* HomeViewController.xib in Resources */,
 				05F89397173EA70900AAD5B7 /* SecondViewController.xib in Resources */,
+				0599967C173EF9C4001CD5BB /* DriverViewController.xib in Resources */,
+				05999681173EFA34001CD5BB /* DriverDetailViewController.xib in Resources */,
+				05999686173EFDC0001CD5BB /* RoutesViewController.xib in Resources */,
+				0599968B173EFDF0001CD5BB /* OnthegoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,8 +257,13 @@
 			files = (
 				05F89379173EA70900AAD5B7 /* main.m in Sources */,
 				05F8937D173EA70900AAD5B7 /* AppDelegate.m in Sources */,
-				05F89386173EA70900AAD5B7 /* FirstViewController.m in Sources */,
+				05F89386173EA70900AAD5B7 /* HomeViewController.m in Sources */,
 				05F8938D173EA70900AAD5B7 /* SecondViewController.m in Sources */,
+				0599967B173EF9C4001CD5BB /* DriverViewController.m in Sources */,
+				05999680173EFA34001CD5BB /* DriverDetailViewController.m in Sources */,
+				05999685173EFDC0001CD5BB /* RoutesViewController.m in Sources */,
+				0599968A173EFDF0001CD5BB /* OnthegoViewController.m in Sources */,
+				0599968F173F02C2001CD5BB /* DriverRideModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,12 +278,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		05F89392173EA70900AAD5B7 /* FirstViewController.xib */ = {
+		05F89392173EA70900AAD5B7 /* HomeViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				05F89393173EA70900AAD5B7 /* en */,
 			);
-			name = FirstViewController.xib;
+			name = HomeViewController.xib;
 			sourceTree = "<group>";
 		};
 		05F89395173EA70900AAD5B7 /* SecondViewController.xib */ = {
@@ -330,6 +392,7 @@
 				05F8939C173EA70900AAD5B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

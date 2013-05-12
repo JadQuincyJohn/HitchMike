@@ -1,33 +1,32 @@
 //
-//  FirstViewController.m
+//  RoutesViewController.m
 //  HitchMike
 //
-//  Created by Jad on 11/05/13.
+//  Created by Jad on 12/05/13.
 //  Copyright (c) 2013 AngelHack. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "RoutesViewController.h"
 
-@interface FirstViewController ()
+@interface RoutesViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation RoutesViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"First", @"First");
-        self.tabBarItem.image = [UIImage imageNamed:@"first"];
+        // Custom initialization
     }
     return self;
 }
-							
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning
